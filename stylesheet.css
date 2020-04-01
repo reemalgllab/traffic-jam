@@ -1,0 +1,67 @@
+body{
+	background-image: url(road.JPG);
+}
+.circle{
+	
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	border :solid 5px;
+	margin-top: 15px;
+	margin-left: 25px;
+	border-radius: 20px;
+	    margin-bottom: 30px;
+}
+#main{
+height: 200px;
+width: 90px;
+background-color: #ccc;
+margin-left: 15%;
+margin-top: 10%;
+padding: 1px;
+
+
+}
+
+#div1{
+	animation:coloringdiv1 3s 1 linear; 
+}
+#div2{
+	animation:coloringdiv2 3s 1 linear; 
+	animation-delay: 2s;
+}
+#div3{
+	animation:coloringdiv3 4s 1 linear; 
+	animation-delay: 4s;
+}
+@keyFrames coloringdiv1{
+from{
+	background-color: red;
+}
+to{
+	background-color: white;
+}
+}
+@keyFrames coloringdiv2{
+from{
+	background-color: #FFFF00;
+}
+to{
+	background-color: white;
+}
+}
+@keyFrames coloringdiv3{
+from{
+	background-color: #64DD17;
+}
+to{
+	background-color: white;
+}
+}
+#down{
+	height: 130px;
+	width: 15px;
+	background-color: black;
+	margin-left: 240px;
+	
+}
